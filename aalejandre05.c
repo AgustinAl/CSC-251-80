@@ -18,10 +18,9 @@ int main(void)
 //	printf("enter a seed \n");
 //	scanf("%d", &y);
 	srand(time(NULL));
-	prompt();
 	y = prompt();
 	int i;
-	for(i=0 ;i<y+1 ;i++)
+	for(i=0 ;i<y ;i++)
 	{
 		x = generation();
 /* */
@@ -74,7 +73,7 @@ int main(void)
 int prompt(void)
 { 
 	int y;
-	printf("enter how many times to roll a d-10");
+	printf("enter how many times to roll a d-10 ");
 	scanf(" %d", &y);
 	return y;
 } 
@@ -86,5 +85,5 @@ int generation(void)
 }
 void result(int c1,int c2,int c3, int c4, int c5, int c6, int c7, int c8, int c9, int c10)
 {
-	printf("%d ones \nd% twos \n%d threes \n%d fours \n%d fives \n%d sixes \n%d sevens \n%d eights \n%d nines \n%d tens",c1,c2,c3,c4,c5,c6,c7,c8,c9,c10);
+	printf("%d ones \n%d twos \n%d threes \n%d fours \n%d fives \n%d sixes \n%d sevens \n%d eights \n%d nines \n%d tens \n",c1,c2,c3,c4,c5,c6,c7,c8,c9,c10);
 }
