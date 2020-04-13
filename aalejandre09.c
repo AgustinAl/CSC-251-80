@@ -85,35 +85,3 @@ int numbers(char *r)
 	}
 	return x;
 }
-/*
-
-	if(0 == strcmp(charray,charra))
-	{
-		puts("that is the correct");
-	}
-	else
-	{
-		puts("wrong");
-	}
-
-	printf("enter string ");
-	while(ch != '\n')
-	{
-		ch = getchar();
-
-		if(isdigit(ch))
-		{
-			puts("is digit ");
-		}
-		else if(islower(ch))
-		{
-			ch = toupper(ch);
-			printf("Your lower char is now upper -> %c \n ",ch);
-		}
-		else
-		{
-			printf(" all else is = %c \n ",ch);
-		}
-	}
-*/
-	
